@@ -31,6 +31,306 @@ class Tamagotchi:
         else:
             # Default to cat if the specified type doesn't exist
             self.animations = ANIMATION_SETS["cat"]
+                r"""
+      ／＞　 フ
+     | 　_　_| 
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_| 
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """
+            ],
+            "eating": [
+                r"""
+      ／＞　 フ
+     | 　_　_| 🍎
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_| 🍏
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_| 🍪
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_| 🍉
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """
+            ],
+            "playing": [
+                r"""
+      ／＞　 フ
+     | 　_　_|  🎾
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  🪁
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  🧸
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  🪀
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """
+            ],
+            "healing": [
+                r"""
+      ／＞　 フ
+     | 　_　_|  💊
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  🩹
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  🩺
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  🧸
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """
+            ],
+            "sick": [
+                r"""
+      ／＞　 フ
+     | 　_　_|  🤒
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  🤢
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  😷
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  🥴
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """
+            ],
+            "sleeping": [
+                r"""
+      ／＞　 フ
+     | 　_　_|  zZ
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  Zz
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  zz
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  ZZZ
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """
+            ],
+            "happy": [
+                r"""
+      ／＞　 フ
+     | 　_　_|  💖
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  ✨
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  💕
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """,
+                r"""
+      ／＞　 フ
+     | 　_　_|  🌟
+   ／` ミ＿xノ 
+  /　　　　 |
+ /　 ヽ　　 ﾉ
+│　　|　|　|
+／￣|　　 |　|
+(￣ヽ＿_ヽ_)__)
+＼二 )
+                """
+            ]
+        }
     
     def feed(self):
         self.hunger = max(0, self.hunger - 15)
@@ -171,22 +471,12 @@ def create_pet_display(pet):
     table.add_row("Status", f"[bold]{pet.status()}[/bold]")
     table.add_row("Age", f"[bold]{pet.age}[/bold] days")
     table.add_row("Stage", f"[bold]{pet.stage}[/bold]")
-    table.add_row("Pet Type", f"[bold]{pet.pet_type.capitalize()}[/bold]")
     
     body_layout["stats"].update(Panel(table, title="Stats", border_style="green"))
     
     # Pet panel - animation with more visual appeal
     pet_animation = pet.get_animation_frame()
-    # Clean up and center the ASCII art
-    pet_lines = [line.rstrip() for line in pet_animation.strip('\n').split('\n')]
-    max_width = max(len(line) for line in pet_lines)
-    # Pad each line to the same width
-    padded_lines = [line.center(max_width) for line in pet_lines]
-    # Add vertical padding
-    vertical_pad = 2
-    padded_lines = ([" " * max_width] * vertical_pad) + padded_lines + ([" " * max_width] * vertical_pad)
-    pet_art_block = "\n".join(padded_lines)
-
+    
     # Add colors to the pet animation based on status
     if pet.health < 30:
         pet_color = "red"
@@ -213,7 +503,7 @@ def create_pet_display(pet):
     
     # Create the pet display with decorations
     pet_display_str = f"\n{decoration}{pet.stage} {decoration}\n\n"
-    pet_display_str += f"[{pet_color}]{pet_art_block}[/]\n\n"
+    pet_display_str += f"[{pet_color}]{pet_animation}[/]\n\n"
     
     # Add speech bubble with message
     if pet.last_action == "eating":
@@ -252,7 +542,7 @@ def create_pet_display(pet):
     ))
     
     # Footer
-    footer_text = "Commands: [bold cyan]F[/bold cyan]eed | [bold cyan]P[/bold cyan]lay | [bold cyan]H[/bold cyan]eal | [bold cyan]S[/bold cyan]leep | [bold cyan]C[/bold cyan]hange Pet | [bold cyan]Q[/bold cyan]uit"
+    footer_text = "Commands: [bold cyan]F[/bold cyan]eed | [bold cyan]P[/bold cyan]lay | [bold cyan]H[/bold cyan]eal | [bold cyan]S[/bold cyan]leep | [bold cyan]Q[/bold cyan]uit"
     layout["footer"].update(Panel(Align.center(footer_text), border_style="blue"))
     
     return layout
@@ -300,39 +590,6 @@ def show_action_animation(console, pet, action_name, frames=5):
         pet.animation_frame += 1
         console.print(create_pet_display(pet))
         time.sleep(0.2)
-        
-def select_pet_type(console):
-    """Let the user select a pet type."""
-    console.clear()
-    f = Figlet(font='small')
-    title_text = f.renderText("Choose Your Pet")
-    
-    panel = Panel(
-        f"[bold cyan]{title_text}[/bold cyan]\n\n"
-        f"[yellow]Select your pet type:[/yellow]\n\n"
-        f"[green]1. Cat[/green] - A cute feline friend\n"
-        f"[green]2. Bunny[/green] - A fluffy bunny companion\n"
-        f"[green]3. Robot[/green] - A mechanical buddy\n",
-        box=box.DOUBLE,
-        border_style="cyan",
-        width=80
-    )
-    
-    console.print("\n" * 2)
-    console.print(Align.center(panel))
-    
-    choice = Prompt.ask(
-        "[bold cyan]Enter your choice[/bold cyan]",
-        choices=["1", "2", "3"],
-        default="1"
-    )
-    
-    if choice == "1":
-        return "cat"
-    elif choice == "2":
-        return "bunny"
-    else:
-        return "robot"
 
 def main():
     console = Console()
@@ -343,12 +600,9 @@ def main():
     try:
         show_title_screen(console)
         
-        # Select pet type
-        pet_type = select_pet_type(console)
-        
         console.clear()
         name = Prompt.ask("[bold cyan]What is your Tamagotchi's name?[/bold cyan]")
-        pet = Tamagotchi(name, pet_type)
+        pet = Tamagotchi(name)
         
         # Show idle animation before starting game
         for _ in range(3):
@@ -365,7 +619,7 @@ def main():
             # Show command prompt
             action = Prompt.ask(
                 "\n[bold cyan]Choose your action[/bold cyan]",
-                choices=["f", "p", "h", "s", "c", "q"],
+                choices=["f", "p", "h", "s", "q"],
                 show_default=False
             ).lower()
             
@@ -381,12 +635,6 @@ def main():
             elif action == 's':
                 pet.sleep()
                 show_action_animation(console, pet, "sleeping")
-            elif action == 'c':
-                # Change pet type
-                new_type = select_pet_type(console)
-                pet.pet_type = new_type
-                pet.animations = ANIMATION_SETS[new_type]
-                show_action_animation(console, pet, "idle")
             elif action == 'q':
                 break
             
